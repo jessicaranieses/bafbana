@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Type of Chart Are You?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>What Type of Chart Are You?</h1>
+
+<div class="input-section">
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" placeholder="Your Name">
+</div>
+
+<div class="quiz-section">
+    <p>1. How do you handle stress?</p>
+    <label><input type="radio" name="q1" value="a"> Chill, I go with the flow. 🌊</label><br>
+    <label><input type="radio" name="q1" value="b"> Organize everything. Lists are life! 📋</label><br>
+    <label><input type="radio" name="q1" value="c"> Dive into my hobbies. 🎨🎮</label><br>
+</div>
+
+<div class="quiz-section">
+    <p>2. Your favorite social media platform?</p>
+    <label><input type="radio" name="q2" value="a"> Instagram 📸</label><br>
+    <label><input type="radio" name="q2" value="b"> Twitter 🐦</label><br>
+    <label><input type="radio" name="q2" value="c"> TikTok 🕺</label><br>
+</div>
+
+<div class="quiz-section">
+    <p>3. Preferred way to hang out with friends?</p>
+    <label><input type="radio" name="q3" value="a"> Movie night 🍿</label><br>
+    <label><input type="radio" name="q3" value="b"> Study together 📚</label><br>
+    <label><input type="radio" name="q3" value="c"> Gaming session 🎮</label><br>
+</div>
+
+<button onclick="calculateResult()">Find Out!</button>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
